@@ -1,0 +1,131 @@
+.calculadora { border: 1px black ridge;
+               width: 300px;
+               height: 520px ;
+               text-align: right;
+               background-color: #dbdcdd;  
+}
+
+#espacioBlanco {
+                 width: 280px;
+                 text-align: right; 
+                 position: relative;  
+                 padding: 0px 5px;
+                 background-color:#dbdcdd;
+                 font-family: "courier new";
+                 font-size: 20px;
+                 display: inline-block;
+                 line-height : 0px;
+}
+
+#Estandar {
+                 width: 325px;
+                 text-align: left; 
+                 position: relative;  
+                 padding: 0px 5px;
+                 font-family: "courier new";
+                 font-size: 30px;
+                 display: inline-block;
+                 line-height : 10px;
+}
+#reciduo {       width: 280px;
+                 text-align: right; 
+                 position: relative;  
+                 padding: 0px 5px;
+                 background-color:#dbdcdd;
+                 font-family: "courier new";
+                 font-size: 30px;
+                 display: inline-block;
+                 line-height : 10px;
+}
+#textoPantalla { 
+                
+                 border-width: 5px;
+                 border-style: solid;
+                 border-color: black;
+                 width: 280px;
+                 text-align: right; 
+                 position: relative;  
+                 padding: 1px 5px;
+                 background-color:#dbdcdd;
+                 font-family: "courier new";
+                 font-size: 40px;
+                 display: inline-block;
+                 line-height : 40px;
+                 
+}
+
+#resultados label{  width: 225px;
+                    height: 20px;
+                    text-align: right; 
+                    position: relative;
+                    left: 2px;
+                    background-color: white;
+                    font-family: "courier new";
+                    font-size: 12px;
+                    display: inline-block;
+                    padding: 2px 2px;
+}
+
+#matrix {
+    text-align: center;
+    border: none;
+    margin: 0 auto;
+    padding: 1px;
+    width: 225px;
+    height: 220px;
+    
+}
+
+
+#matrix tr, td {
+    padding: 1px;
+}
+
+#matrix label {
+    text-align: center;
+    display: inline-block;
+    line-height : 30px;
+    width: 300px;
+    background-color: white;
+    
+}
+#matrix button {
+    height: 45px;
+    width: 70px;
+    border: none;
+    font-size: 20px;
+    background-color: white;
+}
+#matrix button:hover {
+    height: 45px;
+    width: 70px;
+    border: none;
+    font-size: 20px;
+    background-color: #2e97ff;
+}
+
+#matrix2 {
+    text-align: center;
+    border: none;
+    margin: 0 auto;
+    padding: 1px;
+}
+
+#matrix2 tr, td {
+    padding: 1px;
+}
+
+#matrix2 button {
+    height: 20px;
+    width: 55px;
+    border: none;
+    font-size: 15px;
+    background-color: white;
+}
+#matrix2 button:hover {
+    height: 20px;
+    width: 55px;
+    border: none;
+    font-size: 15px;
+    background-color: #2e97ff;
+}

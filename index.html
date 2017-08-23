@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Calculadora</title> 
+        <link rel="stylesheet" type="text/css" href="calculadora.css" />
+        <script type="text/javascript" src="calculadora.js"></script>
+    </head>
+    <body>
+        <div class="calculadora">
+             <form action="#" name="calculadora" id="calculadora">
+                 
+                       <label id="espacioBlanco"></label><br/>
+                       <label id="Estandar">Estandar</label><br/><br/>
+                       <label id="reciduo"></label><br/><br/><br/>
+                       <label id="textoPantalla">0</label><br/><br/>
+                   
+                <table id="matrix2">
+                    <tr>
+                        <td><button id="MC" onclick="imprimir(7)">MC</button></td>
+                        <td><button id="MR" onclick="imprimir(7)">MR</button></td>
+                        <td><button id="MMAS" onclick="imprimir(7)">M+</button></td>
+                        <td><button id="M-" onclick="imprimir(7)">M-</button></td>
+                        <td><button id="MELEVADO" onclick="imprimir(7)">M^</button></td>
+                    </tr>
+                </table>   
+                <table id="matrix">
+                    <tr>
+                        <td><button id="Porcentaje" onclick="proncentaje12()">%</button></td>
+                        <td><button id="raiz" onclick="raiz12()">Raiz</button></td>
+                        <td><button id="cudrado" onclick="cuadrado12()">X^2</button></td>
+                        <td><button id="fraccionario" onclick="fraccionario12()">1/X</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="borrarparcial" onclick="borrarParcial()">CE</button></td>
+                        <td><button id="borrartotal" onclick="borrarTotal()">C</button></td>
+                        <td><button id="borrarcaracter" onclick="borrarCaracter()">[x]</button></td>
+                        <td><button id="divicion12" onclick="dividir12()">/</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="b7" onclick="imprimir(7)">7</button></td>
+                        <td><button id="b8" onclick="imprimir(8)">8</button></td>
+                        <td><button id="b9" onclick="imprimir(9)">9</button></td>
+                        <td><button id="Multiplicar12" onclick="multiplicar12()">X</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="b4" onclick="imprimir(4)">4</button></td>
+                        <td><button id="b5" onclick="imprimir(5)">5</button></td>
+                        <td><button id="b6" onclick="imprimir(6)">6</button></td>
+                        <td><button id="restar1" onclick="restar12()">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="b1" onclick="imprimir(1)">1</button></td>
+                        <td><button id="b2" onclick="imprimir(2)">2</button></td>
+                        <td><button id="b3" onclick="imprimir(3)">3</button></td>
+                        <td><button id="sumar1" onclick="sumar12()">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="sumamenos" onclick="cleanAll()">+_</button></td>
+                        <td><button id="b0" onclick="imprimir(0)">0</button></td>
+                        <td><button id="coma" onclick="imprimir(7)">,</button></td>
+                        <td><button id="igual" onclick="igual12()">=</button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
